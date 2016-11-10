@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>IBEST</title>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100&#38;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="slick.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="wow.min.js"></script>
+    <script src="slick.min.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="fixed-menu">
+            <a href="" class="logo"><img src="img/logo-c-s.png" alt=""></a>
+			<a href="" class="mobile-menu-btn"><i class="fa fa-bars" aria-hidden="true"></i></a>
+			<div class="menu-right">
+				<ul class="menu" id="menu">
+					<li><a href="#spheres">О компании</a></li>
+					<li><a href="#steps">Продукты</a></li>
+					<li class="menu-par"><div>Партнеры 	<span>&#8744;</span></div>
+						<ul class="sub-menu">
+							<li><a href="">Сетевое оборудование</a></li>
+							<li><a href="">Информационная безопасность</a></li>
+						</ul>
+					</li>
+					<li><a href="#clients">Клиенты</a></li>
+					<li><a href="#clients">Контакты</a></li>
+				</ul>
+				<ul class="call">
+					<li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+38445971090">+372 5447 7657</a></li>
+					<li class="callback"><img src="img/call.png" alt="">Заказать звонок</li>
+				</ul>
+			</div>
+			<div class="ask-question">
+				<div class="form-wrapp">
+					<div class="enter-title">Задать вопрос</div>
+					<form>
+						<input type="text" placeholder="Ваше Имя" name="name">
+						<input type="text" placeholder="Ваш номер телефона" name="phone">
+						<input type="submit" value="Отправить">
+					</form>
+				</div>
+			</div>
+			<div id="overlay"></div>
+		</div>
+		<div class="top-block">
+			<div class="logo-bg">
+				<div class="near-img near-left">
+					<p>Сетевое  оборудование</p>
+					<a href="" class="btn">Подробнее</a>
+				</div>
+				<img src="img/logo-c-b.png" alt="">
+				<div class="near-img near-right">
+					<p>Информационная  безопасность</p>
+					<a href="" class="btn">Подробнее</a>
+				</div>
+			</div>
+		</div>
+		<div class="forma-block">
+			<div class="forma-text">
+				<p class="big">У Вас возникли вопросы или нужна консультация по нашим продуктам и решениям?</p>
+				<p>ЗАПОЛНИТЕ ФОРМУ и наш менеджер свяжется с Вами в течение 5 минут.</p>
+			</div>
+			<form action="">
+				<input type="text" name="email" id="email" placeholder="Ваш номер телефона или e-mail">
+				<textarea name="text" id="text" cols="30" rows="10" placeholder="Ваш вопрос или пожелание"></textarea>
+				<input type="submit" value="ОТПРАВИТЬ" class="btn">
+			</form>
+		</div>
+		<div class="about">
+			<div class="border-wrap">
+				<div class="div-title">О КОМПАНИИ</div>
+				<div class="border">
+					<div class="line"></div>
+					<div class="rectangle"></div>
+					<div class="line"></div>
+				</div>
+			</div>
+			<p>ООО IBEST является специалистом в области предоставления гибких IT решений и услуг. Мы поддерживаем малые, средние и крупные предприятия по всем странам Балтии. Мы помогаем организациям с помощью наших ИТ-решений и услуг решать конкретные бизнес-задачи. Мы гордимся тем, что обеспечивая гибкий стиль взаимодействия, можем полностью удовлетворить Ваши требования. ООО IBEST подходит к решению Ваших проблем как со стороны технической группы, так и руководства; это означает, что мы предоставляем наши услуги и решения в соответствии с потребностями Вашего бизнеса.
+    		</p>
+			<p>Мы поставляем продукты Juniper, Ericsson и Brocade всегда по самым выгодным ценам. Подход ООО IBEST как бизнес-консультанта обеспечивается полным комплексом услуг, которые включают оценку, проектирование, поставку, настройку и поддержку.</p>
+		</div>
+		<div class="tabs-content">
+			<ul class="tabs">
+				<li class="tab-obor active">
+					<span>СЕТЕВОЕ ОБОРУДОВАНИЕ</span>
+					<div class="triangle-topleft border-tab">
+						<div class="diagonal">
+						</div>
+					</div>
+				</li>
+				<li class="tab-bezop">
+					<span>ИНФОРМАЦИОННАЯ БЕЗОПАСНОСТЬ</span>
+					<div class="triangle-bottomright border-tab">
+						<div class="diagonal">
+						</div>
+					</div>
+				</li>
+			</ul>
+			<div class="tabs-panel">
+				<div id="tab-obor" class="info-panel tab-obor">
+					<div class="logo-slider">
+						<div>
+							<img src="img/client-1.png" alt="">
+							<div class="border-s"></div>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis aute</p>
+						</div>
+						<div>
+							<img src="img/client-2.png" alt="">
+							<div class="border-s"></div>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis aute</p>
+						</div>
+						<div>
+							<img src="img/client-3.png" alt="">
+							<div class="border-s"></div>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis aute</p>
+						</div>
+						<div>
+							<img src="img/client-3.png" alt="">
+							<div class="border-s"></div>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis aute</p>
+						</div>
+						<div>
+							<img src="img/client-1.png" alt="">
+							<div class="border-s"></div>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis aute</p>
+						</div>
+					</div>
+					<div class="top-wrapp">
+						<div class="title-wrap">
+							<div class="border-s"></div>
+							<div class="title btn">ТОП ПРОДАЖ</div>
+							<div class="border-s"></div>
+						</div>
+						<p class="top-text">
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis aute
+						</p>
+						<div class="slider-order">
+							<div>
+								<img class="tovar-img" src="img/tovar-1.png" alt="">
+								<a href="" class="pdf">
+									<img src="img/pdf.png" alt="">
+									<span class="tovar-title">EX6200 Ethernet Swit</span>
+								</a>
+								<div class="border-s"></div>
+								<p class="tovar-text">
+									EX6200 линии Ethernet коммутаторов обеспечивает масштабируемые, отказоустойчивые и высокопроизводительные решения шкафу для развертывания предприятий кампуса.EX6200 также идеально подходит для центров обработки данных доступа развертывание использованием конца ряда проектов.
+								</p>
+								<div class="btn">Запрос цены</div>
+							</div>
+							<div>
+								<img class="tovar-img" src="img/tovar-2.png" alt="">
+								<a href="" class="pdf">
+									<img src="img/pdf.png" alt="">
+									<span class="tovar-title">EX6200 Ethernet Swit</span>
+								</a>
+								<div class="border-s"></div>
+								<p class="tovar-text">
+									EX6200 линии Ethernet коммутаторов обеспечивает масштабируемые, отказоустойчивые и высокопроизводительные решения шкафу для развертывания предприятий кампуса.EX6200 также идеально подходит для центров обработки данных доступа развертывание использованием конца ряда проектов.
+								</p>
+								<div class="btn">Запрос цены</div>
+							</div>
+							<div>
+								<img class="tovar-img" src="img/tovar-1.png" alt="">
+								<a href="" class="pdf">
+									<img src="img/pdf.png" alt="">
+									<span class="tovar-title">EX6200 Ethernet Swit</span>
+								</a>
+								<div class="border-s"></div>
+								<p class="tovar-text">
+									EX6200 линии Ethernet коммутаторов обеспечивает масштабируемые, отказоустойчивые и высокопроизводительные решения шкафу для развертывания предприятий кампуса.EX6200 также идеально подходит для центров обработки данных доступа развертывание использованием конца ряда проектов.
+								</p>
+								<div class="btn">Запрос цены</div>
+							</div>
+							<div>
+								<img class="tovar-img" src="img/tovar-2.png" alt="">
+								<a href="" class="pdf">
+									<img src="img/pdf.png" alt="">
+									<span class="tovar-title">EX6200 Ethernet Swit</span>
+								</a>
+								<div class="border-s"></div>
+								<p class="tovar-text">
+									EX6200 линии Ethernet коммутаторов обеспечивает масштабируемые, отказоустойчивые и высокопроизводительные решения шкафу для развертывания предприятий кампуса.EX6200 также идеально подходит для центров обработки данных доступа развертывание использованием конца ряда проектов.
+								</p>
+								<div class="btn">Запрос цены</div>
+							</div>
+							<div>
+								<img class="tovar-img" src="img/tovar-1.png" alt="">
+								<a href="" class="pdf">
+									<img src="img/pdf.png" alt="">
+									<span class="tovar-title">EX6200 Ethernet Swit</span>
+								</a>
+								<div class="border-s"></div>
+								<p class="tovar-text">
+									EX6200 линии Ethernet коммутаторов обеспечивает масштабируемые, отказоустойчивые и высокопроизводительные решения шкафу для развертывания предприятий кампуса.EX6200 также идеально подходит для центров обработки данных доступа развертывание использованием конца ряда проектов.
+								</p>
+								<div class="btn">Запрос цены</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="tab-bezop" class="info-panel tab-bezop hidden">2</div>
+			</div>
+		</div>
+		<div class="clients" id="clients">
+			<div class="border-wrap">
+				<div class="div-title">НАШИ КЛИЕНТЫ</div>
+				<div class="border">
+					<div class="line"></div>
+					<div class="rectangle"></div>
+					<div class="line"></div>
+				</div>
+			</div>
+			<ul>
+				<li><img src="img/client-1.png" alt=""></li>
+				<li><img src="img/client-2.png" alt=""></li>
+				<li><img src="img/client-2.png" alt=""></li>
+				<li><img src="img/client-1.png" alt=""></li>
+				<li><img src="img/client-1.png" alt=""></li>
+				<li><img src="img/client-2.png" alt=""></li>
+			</ul>
+		</div>
+		<div class="partners">
+			<div class="title-wrap">
+				<div class="border-s"></div>
+				<div class="title btn">НАШИ ПАРТНЕРЫ</div>
+				<div class="border-s"></div>
+			</div>
+			<ul class="slider-part">
+				<li>
+					<div>
+						<img src="img/partners/Arbor.png" alt="">
+						<div class="border">
+							<div class="line"></div>
+							<div class="rectangle"></div>
+							<div class="line"></div>
+						</div>
+						<a href="">symantec.com</a>
+					</div>
+					<div>
+						<img src="img/partners/extreme.png" alt="">
+						<div class="border">
+							<div class="line"></div>
+							<div class="rectangle"></div>
+							<div class="line"></div>
+						</div>
+						<a href="">symantec.com</a>
+					</div>
+				</li>
+				<li>
+					<div>
+						<img src="img/partners/fortinet.png" alt="">
+						<div class="border">
+							<div class="line"></div>
+							<div class="rectangle"></div>
+							<div class="line"></div>
+						</div>
+						<a href="">symantec.com</a>
+					</div>
+					<div>
+						<img src="img/partners/Juniper.png" alt="">
+						<div class="border">
+							<div class="line"></div>
+							<div class="rectangle"></div>
+							<div class="line"></div>
+						</div>
+						<a href="">symantec.com</a>
+					</div>
+				</li>
+				<li>
+					<div>
+						<img src="img/partners/symantec.png" alt="">
+						<div class="border">
+							<div class="line"></div>
+							<div class="rectangle"></div>
+							<div class="line"></div>
+						</div>
+						<a href="">symantec.com</a>
+					</div>
+					<div>
+						<img src="img/partners/brocade.png" alt="">
+						<div class="border">
+							<div class="line"></div>
+							<div class="rectangle"></div>
+							<div class="line"></div>
+						</div>
+						<a href="">symantec.com</a>
+					</div>
+				</li>
+				<li>
+					<div>
+						<img src="img/partners/Arbor.png" alt="">
+						<div class="border">
+							<div class="line"></div>
+							<div class="rectangle"></div>
+							<div class="line"></div>
+						</div>
+						<a href="">symantec.com</a>
+					</div>
+					<div>
+						<img src="img/partners/extreme.png" alt="">
+						<div class="border">
+							<div class="line"></div>
+							<div class="rectangle"></div>
+							<div class="line"></div>
+						</div>
+						<a href="">symantec.com</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="contacts" id="contacts">
+			<div class="border-wrap">
+				<div class="div-title">КОНТАКТЫ</div>
+				<div class="border">
+					<div class="line"></div>
+					<div class="rectangle"></div>
+					<div class="line"></div>
+				</div>
+			</div>
+			<p class="cont-text">
+				Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis aute
+			</p>
+			<ul class="cont-data">
+				<li>
+					<img src="img/map.png" alt="">
+					<p>г. Киев,<br>ул. Александра Пироговского, 19,<br>корпус 7/14</p>
+				</li>
+				<li>
+					<img src="img/phone.png" alt="">
+					<a href="tel:+37254477657">+372 5447 7657</a>
+				</li>
+				<li>
+					<img src="img/mail.png" alt="">
+					<a href="mailto:sales@ibest.eu">sales@ibest.eu</a>
+				</li>
+			</ul>
+		</div>
+		<div class="footer">
+			<p>©ТОВ «БІЗНЕС КОНСАЛТИНГ ЮКРЕЙН», 2016.</p>
+		</div>
+	</div>
+	<script>
+            $('.logo-slider').slick({
+                // autoplay: true,
+                speed: 400,
+                // appendArrows: '',
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                nextArrow: '<div class="slick-next"></div>',
+                prevArrow: '<div class="slick-prev"></div>'
+                // responsive: [
+                //   {
+                //     breakpoint: 750,
+                //     settings: {
+                //       slidesToShow: 2,
+                //       slidesToScroll: 2
+                //     }
+                //   },
+                //   {
+                //     breakpoint: 500,
+                //     settings: {
+                //       slidesToShow: 1,
+                //       slidesToScroll: 1
+                //     }
+                //   }
+                // ]
+            });
+            $('.slider-order').slick({
+                // autoplay: true,
+                speed: 400,
+                // appendArrows: '',
+                slidesToShow: 4,
+                slidesToScroll: 4,
+                nextArrow: '<div class="slick-next"></div>',
+                prevArrow: '<div class="slick-prev"></div>'
+                // responsive: [
+                //   {
+                //     breakpoint: 750,
+                //     settings: {
+                //       slidesToShow: 2,
+                //       slidesToScroll: 2
+                //     }
+                //   },
+                //   {
+                //     breakpoint: 500,
+                //     settings: {
+                //       slidesToShow: 1,
+                //       slidesToScroll: 1
+                //     }
+                //   }
+                // ]
+            });
+            $('.slider-part').slick({
+                // autoplay: true,
+                speed: 400,
+                // appendArrows: '',
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                nextArrow: '<div class="slick-next"></div>',
+                prevArrow: '<div class="slick-prev"></div>'
+                // responsive: [
+                //   {
+                //     breakpoint: 750,
+                //     settings: {
+                //       slidesToShow: 2,
+                //       slidesToScroll: 2
+                //     }
+                //   },
+                //   {
+                //     breakpoint: 500,
+                //     settings: {
+                //       slidesToShow: 1,
+                //       slidesToScroll: 1
+                //     }
+                //   }
+                // ]
+            });
+	</script>
+</body>
+</html>
