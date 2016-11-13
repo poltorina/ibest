@@ -63,15 +63,17 @@
 			</div>
 		</div>
 		<div class="forma-block">
-			<div class="forma-text">
-				<p class="big">У Вас возникли вопросы или нужна консультация по нашим продуктам и решениям?</p>
-				<p>ЗАПОЛНИТЕ ФОРМУ и наш менеджер свяжется с Вами в течение 5 минут.</p>
+			<div class="forma-wrapp">
+				<div class="forma-text">
+					<p class="big">У Вас возникли вопросы или нужна консультация по нашим продуктам и решениям?</p>
+					<p>ЗАПОЛНИТЕ ФОРМУ и наш менеджер свяжется с Вами в течение 5 минут.</p>
+				</div>
+				<form action="">
+					<input type="text" name="email" id="email" placeholder="Ваш номер телефона или e-mail">
+					<textarea name="text" id="text" cols="30" rows="10" placeholder="Ваш вопрос или пожелание"></textarea>
+					<input type="submit" value="ОТПРАВИТЬ" class="btn">
+				</form>
 			</div>
-			<form action="">
-				<input type="text" name="email" id="email" placeholder="Ваш номер телефона или e-mail">
-				<textarea name="text" id="text" cols="30" rows="10" placeholder="Ваш вопрос или пожелание"></textarea>
-				<input type="submit" value="ОТПРАВИТЬ" class="btn">
-			</form>
 		</div>
 		<div class="about" id="about">
 			<div class="border-wrap">
@@ -464,102 +466,81 @@
             $('.logo-slider').slick({
                 // autoplay: true,
                 speed: 400,
-                // appendArrows: '',
                 slidesToShow: 3,
                 slidesToScroll: 3,
                 nextArrow: '<div class="slick-next"></div>',
-                prevArrow: '<div class="slick-prev"></div>'
-                // responsive: [
-                //   {
-                //     breakpoint: 750,
-                //     settings: {
-                //       slidesToShow: 2,
-                //       slidesToScroll: 2
-                //     }
-                //   },
-                //   {
-                //     breakpoint: 500,
-                //     settings: {
-                //       slidesToShow: 1,
-                //       slidesToScroll: 1
-                //     }
-                //   }
-                // ]
+                prevArrow: '<div class="slick-prev"></div>',
+                responsive: [
+                  {
+                    breakpoint: 800,
+                    settings: {
+                      slidesToShow: 2,
+                      slidesToScroll: 2
+                    }
+                  },
+                  {
+                    breakpoint: 500,
+                    settings: {
+                      slidesToShow: 1,
+                      slidesToScroll: 1
+                    }
+                  }
+                ]
             });
             $('.slider-order').slick({
                 // autoplay: true,
                 speed: 400,
-                // appendArrows: '',
                 slidesToShow: 4,
                 slidesToScroll: 4,
                 nextArrow: '<div class="slick-next"></div>',
-                prevArrow: '<div class="slick-prev"></div>'
-                // responsive: [
-                //   {
-                //     breakpoint: 750,
-                //     settings: {
-                //       slidesToShow: 2,
-                //       slidesToScroll: 2
-                //     }
-                //   },
-                //   {
-                //     breakpoint: 500,
-                //     settings: {
-                //       slidesToShow: 1,
-                //       slidesToScroll: 1
-                //     }
-                //   }
-                // ]
+                prevArrow: '<div class="slick-prev"></div>',
+                responsive: [
+                  {
+                    breakpoint: 950,
+                    settings: {
+                      slidesToShow: 3,
+                      slidesToScroll: 3
+                    }
+                  },
+                  {
+                    breakpoint: 750,
+                    settings: {
+                      slidesToShow: 2,
+                      slidesToScroll: 2
+                    }
+                  },
+                  {
+                    breakpoint: 550,
+                    settings: {
+                      slidesToShow: 1,
+                      slidesToScroll: 1
+                    }
+                  }
+                ]
             });
             $('.slider-part').slick({
                 // autoplay: true,
                 speed: 400,
-                // appendArrows: '',
                 slidesToShow: 3,
                 slidesToScroll: 3,
                 nextArrow: '<div class="slick-next"></div>',
-                prevArrow: '<div class="slick-prev"></div>'
-                // responsive: [
-                //   {
-                //     breakpoint: 750,
-                //     settings: {
-                //       slidesToShow: 2,
-                //       slidesToScroll: 2
-                //     }
-                //   },
-                //   {
-                //     breakpoint: 500,
-                //     settings: {
-                //       slidesToShow: 1,
-                //       slidesToScroll: 1
-                //     }
-                //   }
-                // ]
-            });
-            $('.slider-aaa').slick({
-                // autoplay: true,
-                speed: 400,
-                // appendArrows: '',
-                slidesToShow: 3,
-                slidesToScroll: 3,
-                nextArrow: '<div class="slick-next"></div>',
-                prevArrow: '<div class="slick-prev"></div>'
-                // responsive: [
-                //   {
-                //     breakpoint: 750,
-                //     settings: {
-                //       slidesToShow: 2,
-                //       slidesToScroll: 2
-                //     }
-                //   },
-                //   {
-                //     breakpoint: 500,
-                //     settings: {
-                //       slidesToShow: 1,
-                //       slidesToScroll: 1
-                //     }
-                //   }
-                // ]
+                prevArrow: '<div class="slick-prev"></div>',
+                responsive: [
+                  {
+                    breakpoint: 800,
+                    settings: {
+                      slidesToShow: 2,
+                      slidesToScroll: 2
+                    }
+                  },
+                  {
+                    breakpoint: 600,
+                    settings: {
+                      slidesToShow: 1,
+                      slidesToScroll: 1
+                    }
+                  }
+                ]
             });
 	</script>
 </body>
