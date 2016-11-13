@@ -727,7 +727,7 @@ input[type=submit] {
 	line-height: 1.5;
 	max-width: 800px;
 	margin: 0 auto;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 }
 
 .contacts .cont-data {
@@ -741,6 +741,7 @@ input[type=submit] {
 	padding-bottom: 5px;
 	text-align: left;
 	margin-right: 40px;
+	margin-top: 40px;
 }
 
 .contacts .cont-data img {
@@ -909,12 +910,6 @@ input[type=submit] {
 	.contacts .cont-bnt .btn {
 	    width: 245px;
 	    margin-right: 20px;
-	}
-	.contacts .cont-text {
-	    margin-bottom: 50px;
-	}
-	.contacts .cont-data li {
-	    margin-top: 40px;
 	}
 }
 @media screen and (max-width: 950px) {

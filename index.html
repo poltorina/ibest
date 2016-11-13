@@ -10,11 +10,14 @@
     <link rel="stylesheet" href="slick.css">
 	<link rel="stylesheet" href="style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="script.js"></script>
     <script src="wow.min.js"></script>
     <script src="slick.min.js"></script>
-	<script src="script.js"></script>
 </head>
 <body>
+<script>
+ new WOW().init();
+</script>
 	<div class="wrapper">
 		<div class="fixed-menu">
             <a href="" class="logo"><img src="img/logo-c-s.png" alt=""></a>
@@ -50,12 +53,12 @@
 			<div id="overlay"></div>
 		</div>
 		<div class="top-block">
-			<div class="logo-bg">
+			<div class="logo-bg wow fadeIn"">
 				<div class="near-img near-left">
 					<p>Сетевое  оборудование</p>
 					<a href="" class="btn">Подробнее</a>
 				</div>
-				<img src="img/logo-c-b.png" alt="">
+				<img src="img/logo-c-b.png" alt="" class="">
 				<div class="near-img near-right">
 					<p>Информационная  безопасность</p>
 					<a href="" class="btn">Подробнее</a>
@@ -64,11 +67,11 @@
 		</div>
 		<div class="forma-block">
 			<div class="forma-wrapp">
-				<div class="forma-text">
+				<div class="forma-text wow slideInLeft">
 					<p class="big">У Вас возникли вопросы или нужна консультация по нашим продуктам и решениям?</p>
 					<p>ЗАПОЛНИТЕ ФОРМУ и наш менеджер свяжется с Вами в течение 5 минут.</p>
 				</div>
-				<form action="">
+				<form action="" class="wow slideInRight">
 					<input type="text" name="email" id="email" placeholder="Ваш номер телефона или e-mail">
 					<textarea name="text" id="text" cols="30" rows="10" placeholder="Ваш вопрос или пожелание"></textarea>
 					<input type="submit" value="ОТПРАВИТЬ" class="btn">
@@ -84,9 +87,9 @@
 					<div class="line"></div>
 				</div>
 			</div>
-			<p>ООО IBEST является специалистом в области предоставления гибких IT решений и услуг. Мы поддерживаем малые, средние и крупные предприятия по всем странам Балтии. Мы помогаем организациям с помощью наших ИТ-решений и услуг решать конкретные бизнес-задачи. Мы гордимся тем, что обеспечивая гибкий стиль взаимодействия, можем полностью удовлетворить Ваши требования. ООО IBEST подходит к решению Ваших проблем как со стороны технической группы, так и руководства; это означает, что мы предоставляем наши услуги и решения в соответствии с потребностями Вашего бизнеса.
+			<p class="wow shake">ООО IBEST является специалистом в области предоставления гибких IT решений и услуг. Мы поддерживаем малые, средние и крупные предприятия по всем странам Балтии. Мы помогаем организациям с помощью наших ИТ-решений и услуг решать конкретные бизнес-задачи. Мы гордимся тем, что обеспечивая гибкий стиль взаимодействия, можем полностью удовлетворить Ваши требования. ООО IBEST подходит к решению Ваших проблем как со стороны технической группы, так и руководства; это означает, что мы предоставляем наши услуги и решения в соответствии с потребностями Вашего бизнеса.
     		</p>
-			<p>Мы поставляем продукты Juniper, Ericsson и Brocade всегда по самым выгодным ценам. Подход ООО IBEST как бизнес-консультанта обеспечивается полным комплексом услуг, которые включают оценку, проектирование, поставку, настройку и поддержку.</p>
+			<p class="wow shake">Мы поставляем продукты Juniper, Ericsson и Brocade всегда по самым выгодным ценам. Подход ООО IBEST как бизнес-консультанта обеспечивается полным комплексом услуг, которые включают оценку, проектирование, поставку, настройку и поддержку.</p>
 		</div>
 		<div class="tabs-content" id="tabs-content">
 			<ul class="tabs">
@@ -135,7 +138,7 @@
 						</div>
 					</div>
 					<div class="top-wrapp">
-						<div class="title-wrap">
+						<div class="title-wrap wow flash">
 							<div class="border-s"></div>
 							<div class="title btn">ТОП ПРОДАЖ</div>
 							<div class="border-s"></div>
@@ -208,8 +211,6 @@
 					</div>
 				</div>
 				<div id="tab-bezop" class="info-panel tab-bezop hiddens">
-
-
 					<div class="logo-slider">
 						<div>
 							<img src="img/client-1.png" alt="">
@@ -238,7 +239,7 @@
 						</div>
 					</div>
 					<div class="top-wrapp">
-						<div class="title-wrap">
+						<div class="title-wrap wow flash">
 							<div class="border-s"></div>
 							<div class="title btn">ТОП ПРОДАЖ</div>
 							<div class="border-s"></div>
@@ -309,7 +310,6 @@
 							</div>
 						</div>
 					</div>
-
 				</div>
 			</div>
 		</div>
@@ -433,22 +433,22 @@
 				Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis aute
 			</p>
 			<ul class="cont-data">
-				<li>
+				<li class="wow fadeInUpBig">
 					<img src="img/map.png" alt="">
 					<p>г. Киев,<br>ул. Александра Пироговского, 19,<br>корпус 7/14</p>
 				</li>
-				<li>
+				<li class="wow fadeInUpBig">
 					<img src="img/phone.png" alt="">
 					<a href="tel:+37254477657">+372 5447 7657</a>
 				</li>
-				<li>
+				<li class="wow fadeInUpBig">
 					<img src="img/mail.png" alt="">
 					<a href="mailto:sales@ibest.eu">sales@ibest.eu</a>
 				</li>
 			</ul>
 			<div class="cont-bnt callback">
-				<img src="img/svyaz.png" alt="">
-				<div class="btn">СВЯЗАТЬСЯ С НАМИ</div>
+				<img src="img/svyaz.png" alt="" class="wow fadeInUpBig">
+				<div class="btn wow fadeInUpBig">СВЯЗАТЬСЯ С НАМИ</div>
 			</div>
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24183.50233716653!2d30.463509130897332!3d50.42288985437995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cecfbb3bd4d3%3A0x13286e4e594528b8!2z0LLRg9C70LjRhtGPINCe0LvQtdC60YHQsNC90LTRgNCwINCf0LjRgNC-0LPQvtCy0YHRjNC60L7Qs9C-LCAxOSwg0JrQuNGX0LI!5e0!3m2!1sru!2sua!4v1478807743210" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 		</div>
